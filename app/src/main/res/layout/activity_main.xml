@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#ece1e1"
+        android:text="语音识别内容：" />
+
+    <EditText
+        android:id="@+id/content_et"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:cursorVisible="true"
+        android:enabled="true"
+        android:gravity="top"
+        android:visibility="visible"
+        android:alpha="0.5"
+        android:backgroundTint="#22eddada"
+
+        />
+
+    <Button
+        android:id="@+id/listen_btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9480c7ef"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:alpha="0.5"
+        android:layout_marginTop="60dp"
+        android:textColor="#fcfbfb"
+        android:text="开始说话" />
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="CopyRight ®tyIsaac"
+            android:textColor="#abffffff"
+            android:textSize="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
